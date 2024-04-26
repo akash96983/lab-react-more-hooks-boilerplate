@@ -1,0 +1,56 @@
+body {
+    min-height: 100vh;
+    text-align: center;
+    background-color: rgb(75, 69, 69);
+  }
+  
+  input {
+    margin-bottom:20px;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: large;
+  }
+  
+  .create,.backToFocus{
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(5, 166, 5);
+    border-radius: 10px;
+  }
+  
+  .taskList {
+    height: 6vh;
+    width: 60vw;
+    margin:10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 4px 4px 10px black;
+    font-family: sans-serif;
+    font-weight: bolder;
+  }
+  
+  h3 {
+    margin-left: 20px;
+  }
+  
+  .taskList button {
+    height: 100%;
+    width: 10%;
+    background-color: green;
+    border-radius: 10px;
+    margin-right: 5px;
+    color: white;
+    font-weight: bolder;
+  }
+  
+  
+  h1{
+      color: white;
+  }
